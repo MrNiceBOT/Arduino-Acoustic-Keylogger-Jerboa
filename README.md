@@ -47,7 +47,7 @@ python jerboa.py (1) run (2)<br/>
 	- ```end_k END_K``` - The last K value in the range to test.
 	- ```-a``` - Display all non-zero probability possiblities for each character guess.
 	- ```-tsne``` - Use TSNE to display the training data on a 2D plot. <br/>
-![tsne](https://user-images.githubusercontent.com/47477832/131218807-4c350cde-4cc0-4834-8aa8-f738798edb2d.png)
+![tsne](https://user-images.githubusercontent.com/47477832/131218964-9297471f-bf1c-4020-9389-fc39ec708979.png)
 
 (4):
 - Positional:
@@ -55,14 +55,14 @@ python jerboa.py (1) run (2)<br/>
 	- ```expected_output``` - The string that was actually typed.
 - Optional:
 	- ```-simgraph``` - Display a graph of similarity scores for all values of K.<br/>
-![simgraph](https://user-images.githubusercontent.com/47477832/131218747-877eb7be-cd0c-42f0-8c55-34bc22970370.png)
+![simgraph](https://user-images.githubusercontent.com/47477832/131218967-a8c0d35d-eb33-4f46-a46e-d9d7f8fbf113.png)
 
 
 (5):
 - Optional:
 	- ```-testprop TESTPROP``` - Set the proportion of samples used to test model. (Default: 0.1)
 	- ```-kgraph``` - Display a graph showing the accuracy of each K-Value. <br/>
-![kgraph](https://user-images.githubusercontent.com/47477832/131218768-f35db92f-4aa4-4e8b-a708-74bcb6f8b37f.png)
+![kgraph](https://user-images.githubusercontent.com/47477832/131218970-a8cfb158-4173-4caa-bf6e-578e18830778.png)
 
 ## Arduino Sketch
 This is the sketch used by the Arduino to catch the sounds made by the keypress and store them in the SD card for later processing.
@@ -77,5 +77,4 @@ This is the sketch used by the Arduino to catch the sounds made by the keypress 
 
 ## Data Visualisation
 Processing sketch that displays the captured data. <br/>
-![Processing](https://user-images.githubusercontent.com/47477832/131218795-65d88a0d-addf-424f-9119-c2891b3cf575.png)
-
+![Processing](https://user-images.githubusercontent.com/47477832/131218971-49652dd3-d9ba-4cf2-8904-685e8b48dd23.png)
