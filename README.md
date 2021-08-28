@@ -55,14 +55,14 @@ python jerboa.py (1) run (2)<br/>
 	- ```expected_output``` - The string that was actually typed.
 - Optional:
 	- ```-simgraph``` - Display a graph of similarity scores for all values of K.<br/>
-<img src="https://user-images.githubusercontent.com/47477832/131218967-a8c0d35d-eb33-4f46-a46e-d9d7f8fbf113.png" width="200">
+<img src="https://user-images.githubusercontent.com/47477832/131218967-a8c0d35d-eb33-4f46-a46e-d9d7f8fbf113.png" width="350">
 
 
 (5):
 - Optional:
 	- ```-testprop TESTPROP``` - Set the proportion of samples used to test model. (Default: 0.1)
 	- ```-kgraph``` - Display a graph showing the accuracy of each K-Value. <br/>
-<img src="https://user-images.githubusercontent.com/47477832/131218970-a8cfb158-4173-4caa-bf6e-578e18830778.png" width="200">
+<img src="https://user-images.githubusercontent.com/47477832/131218970-a8cfb158-4173-4caa-bf6e-578e18830778.png" width="350">
 
 ## Arduino Sketch
 This is the sketch used by the Arduino to catch the sounds made by the keypress and store them in the SD card for later processing.
@@ -72,7 +72,7 @@ This is the sketch used by the Arduino to catch the sounds made by the keypress 
 - SPI
 
 ### Configuration
-<img src="https://user-images.githubusercontent.com/47477832/131218397-335fdccc-a23c-4226-81c5-53f69ad96601.png" width="200">
+<img src="https://user-images.githubusercontent.com/47477832/131218397-335fdccc-a23c-4226-81c5-53f69ad96601.png" width="350">
 
 
 ## Data Visualisation
