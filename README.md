@@ -62,5 +62,15 @@ python jerboa.py (1) run (2)<br/>
 	- ```-testprop TESTPROP``` - Set the proportion of samples used to test model. (Default: 0.1)
 
 ## Arduino Sketch
+This is the sketch used by the Arduino to catch the sounds made by the keypress and store them in the SD card for later processing.
+
+### Libraries
+- SD
+- SPI
+
+### Configuration
+![final](https://user-images.githubusercontent.com/47477832/131218397-335fdccc-a23c-4226-81c5-53f69ad96601.png)
+
 
 ## Data Visualisation
+Processing sketch that displays the captured data.
