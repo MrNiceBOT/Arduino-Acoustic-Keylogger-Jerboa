@@ -59,11 +59,6 @@ void loop() {
 
         file.println(collect_string);
         delay(200);
-//        if(count == 19){
-//          count = 0;
-//          file.println();
-//          Serial.println();
-//        }
         file.close();
       }
 }
