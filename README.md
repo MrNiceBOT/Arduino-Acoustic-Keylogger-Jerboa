@@ -46,20 +46,23 @@ python jerboa.py (1) run (2)<br/>
 	- ```start_k START_K``` - The first K value in the range to test.
 	- ```end_k END_K``` - The last K value in the range to test.
 	- ```-a``` - Display all non-zero probability possiblities for each character guess.
-	- ```-tsne``` - Use TSNE to display the training data on a 2D plot. ![tsne](https://user-images.githubusercontent.com/47477832/131218807-4c350cde-4cc0-4834-8aa8-f738798edb2d.png)
+	- ```-tsne``` - Use TSNE to display the training data on a 2D plot. 
+![tsne](https://user-images.githubusercontent.com/47477832/131218807-4c350cde-4cc0-4834-8aa8-f738798edb2d.png)
 
 (4):
 - Positional:
 	-  ```input_path``` - Location of input data.
 	- ```expected_output``` - The string that was actually typed.
 - Optional:
-	- ```-simgraph``` - Display a graph of similarity scores for all values of K. ![simgraph](https://user-images.githubusercontent.com/47477832/131218747-877eb7be-cd0c-42f0-8c55-34bc22970370.png)
+	- ```-simgraph``` - Display a graph of similarity scores for all values of K.
+![simgraph](https://user-images.githubusercontent.com/47477832/131218747-877eb7be-cd0c-42f0-8c55-34bc22970370.png)
 
 
 (5):
 - Optional:
 	- ```-testprop TESTPROP``` - Set the proportion of samples used to test model. (Default: 0.1)
-	- ```-kgraph``` - Display a graph showing the accuracy of each K-Value. ![kgraph](https://user-images.githubusercontent.com/47477832/131218768-f35db92f-4aa4-4e8b-a708-74bcb6f8b37f.png)
+	- ```-kgraph``` - Display a graph showing the accuracy of each K-Value. 
+![kgraph](https://user-images.githubusercontent.com/47477832/131218768-f35db92f-4aa4-4e8b-a708-74bcb6f8b37f.png)
 
 ## Arduino Sketch
 This is the sketch used by the Arduino to catch the sounds made by the keypress and store them in the SD card for later processing.
@@ -73,5 +76,6 @@ This is the sketch used by the Arduino to catch the sounds made by the keypress 
 
 
 ## Data Visualisation
-Processing sketch that displays the captured data. ![Processing](https://user-images.githubusercontent.com/47477832/131218795-65d88a0d-addf-424f-9119-c2891b3cf575.png)
+Processing sketch that displays the captured data. 
+![Processing](https://user-images.githubusercontent.com/47477832/131218795-65d88a0d-addf-424f-9119-c2891b3cf575.png)
 
