@@ -1,6 +1,10 @@
 # Jerboa
 Arduino-based acoustic keylogger utilising a KNN model to guess key presses based on its provided training data.
 
+This project doesn't have much utility, it is more of a proof of concept that ilustrates the possibilities of this approach. If someone has the facilities to record key presses from the microphone of your computer, and an identical computer they can use to train the model, then they can extract your key presses with a very high chance of it being correct. I managed to achieve a roughly 70% correct output with a Arduino Nano, access to more computing power to record audio at a much higher rate would be very useful and yield a huge improvement to this accuracy.
+
+To carry on this project, it would be interesting to create a tool in which users can allow the program to access their microphone, they can record some key presses, say 50 presses of each key, this can be used to create a huge database of keyboard audio samples for specific keyboard/s/laptops that can be used to train a model, which could be used to retrieve key presses from audio files. Also, to reduce the dependency on large amounts of data, it might be useful to utilise a model that uses a neural network rather than k-Nearest-Neighbours.
+
 ## Program
 This program can guess keys pressed in input data, test the model on external data, and also test models on a subset of its training data.
 
